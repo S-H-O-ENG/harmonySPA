@@ -6,7 +6,7 @@ from app.api.health import router as health_router
 
 def create_application() -> FastAPI:
     application = FastAPI(
-        tittle=settings.APP_NAME,
+        title=settings.APP_NAME,
         version="1.0.0",
         debug=settings.DEBUG,
         description="API REST de sistema Harmony SPA",
